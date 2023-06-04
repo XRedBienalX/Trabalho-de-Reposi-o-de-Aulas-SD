@@ -4,14 +4,19 @@ request-reply (requisição-resposta)
 publish-subscribe (publicação e subscrição)
 Pipeline
  
- Introdução 
- Nesse trabalho foi usado a arquitetura request-reply (requisição-resposta) e a linguaguem de programação foi python versão 3.9.10,além do uso da biblioteca ZeroMQ.A aplicação desenvolvida se basei na ideia de dois servidores que irão pocessar requisições de um cliente , por consequencia , as respostas das requisições será  em manter , vender ou compra um determinada ação.
  
- Funcionamento
+<h1>Introdução</h1><br />  
+  
+  Nesse trabalho foi usado a arquitetura request-reply (requisição-resposta) e a linguaguem de programação foi python versão 3.9.10,além do uso da biblioteca ZeroMQ.A aplicação desenvolvida se basei na ideia de dois servidores que irão pocessar requisições de um cliente , por consequencia , as respostas das requisições será  em manter , vender ou compra um determinada ação.<br />
  
- import Icon from '@mdi/react';
-import { mdiNumeric1 } from '@mdi/js';
+ <h2>Explicação tecnica da aplicação</h2><br />
+ 
+ O servidor cria um soquete do tipo resposta , vincula-o a porta e, em seguida, aguarda mensagens.O cliente cria um soquete do tipo request, conecta e começa a enviar Mensagens.<br />
+ 
+<h2>Passo a passo para o funcionamento da aplicação</h2><br />
+0-pip install pyzmq <br />
+1-Run servidor 1 <br />
+2-Run servidor 2<br />
+3-Run cliente<br />
 
-<Icon path={mdiNumeric1} size={1} /> De run no sevidor 1 
- 
- 
+
