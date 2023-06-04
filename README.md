@@ -1,5 +1,5 @@
 # Trabalho-de-Reposi-o-de-Aulas-SD
-Tema: ZeroMQ  Pesquise e desenvolva uma pequena aplicação usando ZeroMQ. Escolha um dos seguintes padrões para a aplicação:
+Tema: ZeroMQ  <br />Pesquise e desenvolva uma pequena aplicação usando ZeroMQ. Escolha um dos seguintes padrões para a aplicação:
 request-reply (requisição-resposta)
 publish-subscribe (publicação e subscrição)
 Pipeline
