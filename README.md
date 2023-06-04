@@ -19,6 +19,6 @@ Pipeline
 2-Run servidor 2<br />
 3-Run cliente<br />
 
-Equipe :  <br />
+<h2>Equipe : </h2> <br />
 496157 - HERON RODRIGUES DE OLIVEIRA <br />
 495374 - OTAVIO NORONHA NETO<br />
